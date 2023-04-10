@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.1 (Amazon.com Inc. Java 11.0.15)
+[debug] Load.defaultLoad until apply took 1164.307717ms
+[debug]           Load.loadUnit: plugins took 203.005537ms
+[debug]           Load.loadUnit: defsScala took 0.461946ms
+[debug] [Loading] Scanning directory /Users/mudmi/Desktop/a3-starter/crunch/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/mudmi/Desktop/a3-starter/crunch/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 33.141494 ms
+[debug]               Load.resolveProject(crunch-build) took 123.986725ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id crunch-build, base: /Users/mudmi/Desktop/a3-starter/crunch/project, plugins: List(<none>))) took 267.42426ms
+[debug] [Loading] Done in /Users/mudmi/Desktop/a3-starter/crunch/project, returning: (crunch-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 327.798768ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.809392ms
+[debug]         Load.loadUnit(file:/Users/mudmi/Desktop/a3-starter/crunch/project/, ...) took 541.921692ms
+[debug]       Load.apply: load took 1413.070243ms
+[debug]       Load.apply: resolveProjects took 9.807784ms
+[debug]       Load.apply: finalTransforms took 108.303749ms
+[debug]       Load.apply: config.delegates took 14.585648ms
+[debug]       Load.apply: Def.make(settings)... took 801.440972ms
+[debug]       Load.apply: structureIndex took 153.367009ms
+[debug]       Load.apply: mkStreams took 2.373856ms
+[info] loading project definition from /Users/mudmi/Desktop/a3-starter/crunch/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 5318.584159ms
+[debug]     Load.loadUnit: defsScala took 0.005599ms
+[debug] [Loading] Scanning directory /Users/mudmi/Desktop/a3-starter/crunch
+[debug]       Load.loadUnit: mkEval took 9.293847ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.505431 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 3.79797ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: /Users/mudmi/Desktop/a3-starter/crunch, plugins: List(<none>))) took 11.01852ms
+[debug] [Loading] Done in /Users/mudmi/Desktop/a3-starter/crunch, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 4903.310678ms
+[debug]     Load.loadUnit: cleanEvalClasses took 8.289536ms
+[debug]   Load.loadUnit(file:/Users/mudmi/Desktop/a3-starter/crunch/, ...) took 10233.88963ms
+[debug] Load.apply: load took 10266.918066ms
+[debug] Load.apply: resolveProjects took 0.126292ms
+[debug] Load.apply: finalTransforms took 20.952821ms
+[debug] Load.apply: config.delegates took 1.596389ms
+[debug] Load.apply: Def.make(settings)... took 157.419831ms
+[debug] Load.apply: structureIndex took 55.71496ms
+[debug] Load.apply: mkStreams took 0.003391ms
+[info] set current project to BFS (in build file:/Users/mudmi/Desktop/a3-starter/crunch/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///Users/mudmi/.sbt/1.0/server/338456227ba3ba684dab/sock
+[debug] Writing bsp connection file
+[info] started sbt server
